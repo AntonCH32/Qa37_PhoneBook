@@ -4,14 +4,13 @@ public class User {
     private String email;
     private String password;
 
-    public User setEmail(String Email)
-    {
-        this.email = Email;
+    public User withEmail(String email) {
+        this.email = email;
         return this;
     }
-    public User setPassword(String Password)
-    {
-        this.password = Password;
+
+    public User withPassword(String password) {
+        this.password = password;
         return this;
     }
 
@@ -25,9 +24,9 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{"
-                + "Email='" + email + '\''
-                + ", Password='" + password + '\'' + '}';
-
+        return "User{" +
+                "email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }
