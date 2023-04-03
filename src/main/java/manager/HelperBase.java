@@ -1,5 +1,6 @@
 package manager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import java.util.List;
@@ -13,16 +14,15 @@ public class HelperBase
         this.wd = wd;
     }
 
-    public void type (By locator, String text)
-    {
+    public void type(By locator, String text) {
         WebElement element = wd.findElement(locator);
         element.click();
         element.clear();
-        if(text!=null)
-        {
+        if (text != null) {
             element.sendKeys(text);
         }
     }
+
 
     public void click(By locator)
     {
@@ -34,5 +34,9 @@ public class HelperBase
     {
         List<WebElement> list = wd.findElements(locator);
         return list.size()>0;
+    }
+    public void submit()
+    {
+        click(By.cssSelector("button[type='submit']"));
     }
 }

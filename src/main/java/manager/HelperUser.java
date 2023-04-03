@@ -1,9 +1,7 @@
 package manager;
 import models.User;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
@@ -97,4 +95,34 @@ public class HelperUser extends HelperBase
 
         return wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")).getText();
     }
+    public void login(User user)
+    {
+        openLoginForm();
+        fillLoginForm(user);
+        submit();
+        closeWindow();
+    }
+    private void openLoginForm()
+    {
+        click(By.xpath("//a[@class='active']"));
+    }
+    public void fillLoginForm(User user) {
+        type(By.xpath("//input[@name='email']"), user.getEmail());
+        type(By.xpath("//input[@name='password']"), user.getPassword());
+    }
+
+    public void closeWindow()
+    {
+        if (isElementPresent(By.xpath("//button[@name='login']")))
+            click(By.xpath("//button[@name='login']"));
+    }
+
+
+    public void returnToHome()
+    {
+            click(By.xpath("//a[normalize-space()='HOME']"));
+    }
+
+
+
 }

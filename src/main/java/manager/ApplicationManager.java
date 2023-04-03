@@ -22,6 +22,7 @@ public class ApplicationManager
         wd.navigate().to("https://telranedu.web.app/login");
         helperUser = new HelperUser(wd);
         helperContact = new HelperContact(wd);
+
     }
 
     public HelperUser getHelperUser()
