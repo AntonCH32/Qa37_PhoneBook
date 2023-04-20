@@ -1,26 +1,41 @@
 package manager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+
+
+import com.google.common.io.Files;
+import org.jetbrains.annotations.NotNull;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.File;
+import java.io.IOException;
+import java.time.Duration;
 import java.util.List;
 
-public class HelperBase
-{
+public class HelperBase {
     WebDriver wd;
-
-    public HelperBase(WebDriver wd)
-    {
+    Logger logger= LoggerFactory.getLogger(HelperBase.class);
+    public HelperBase(WebDriver wd) {
         this.wd = wd;
     }
 
-    public void type(By locator, String text) {
+    public void type (By locator, String text){
         WebElement element = wd.findElement(locator);
         element.click();
         element.clear();
-        if (text != null) {
+        clearNew(element);
+
+        if(text!= null){
+
             element.sendKeys(text);
         }
+    }
+    public void clearNew(@NotNull WebElement element)
+    {
+        element.sendKeys(" ");
+        element.sendKeys(Keys.BACK_SPACE);
     }
 
 
@@ -32,11 +47,55 @@ public class HelperBase
 
     public boolean isElementPresent(By locator)
     {
-        List<WebElement> list = wd.findElements(locator);
+        List<WebElement> list =wd.findElements(locator);
         return list.size()>0;
     }
-    public void submit()
+    public boolean isAlertPresent(String message) {
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+
+        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+        System.out.println(alert.getText());
+        if(alert != null && alert.getText().equals(message)){
+
+            // click ok
+            // pause
+            alert.accept();
+            // click cancel  --->  alert.dismiss();
+            // type into alert      -->alert.sendKeys("hello");
+
+
+            return true;
+        }
+        return false;
+    }
+
+    public void pause(int time){
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void getScreen(String link)
     {
-        click(By.cssSelector("button[type='submit']"));
+        TakesScreenshot takesScreenshot=(TakesScreenshot) wd;
+        File tmp = takesScreenshot.getScreenshotAs(OutputType.FILE);
+        try {
+            Files.copy(tmp,new File(link));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void getScreenElement(String link,By locator) {
+        WebElement  element = wd.findElement(locator);
+        File tmp = element.getScreenshotAs(OutputType.FILE);
+
+        try {
+            Files.copy(tmp,new File(link));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

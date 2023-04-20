@@ -48,18 +48,7 @@ public class HelperUser extends HelperBase
     }
 
 
-    public boolean isAlertPresent(String message)
-    {
-        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
-        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-        System.out.println(alert.getText());
-        if(alert != null && alert.getText().equals(message))
-        {
-            alert.accept();
-            return true;
-        }
-        return false;
-    }
+
 
 
     public boolean isAlertPresent2(String message)
@@ -99,8 +88,8 @@ public class HelperUser extends HelperBase
     {
         openLoginForm();
         fillLoginForm(user);
-        submit();
-        closeWindow();
+        submitLogin();
+
     }
     private void openLoginForm()
     {

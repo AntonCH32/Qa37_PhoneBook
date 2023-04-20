@@ -1,0 +1,25 @@
+23:10:18.903  INFO  manager.ApplicationManager - All tests run in Chrome browser
+23:10:20.613  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/login
+23:10:20.644  INFO  tests.TestBase - Name off method --->loginSuccessModel
+23:10:20.645  INFO  manager.ListenerWD - Before Find ElementS--->By.xpath: //button[text()='Sign Out']
+23:10:25.671  INFO  manager.ListenerWD - After Find ElementS--->By.xpath: //button[text()='Sign Out']
+23:10:25.673  INFO  manager.ListenerWD - list of elements is --->0
+23:10:25.675  INFO  tests.TestBase - Test data ---> email: 'noa@gmail.com' & password : 'Nnoa12345$'
+23:10:25.685  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: a[href='/login']
+23:10:25.706  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: a[href='/login']
+23:10:25.720  INFO  manager.ListenerWD - Location of element(1425, 33)
+23:10:25.766  INFO  manager.ListenerWD - Before Find Element--->By.name: email
+23:10:25.789  INFO  manager.ListenerWD - After Find Element--->By.name: email
+23:10:25.798  INFO  manager.ListenerWD - Location of element(568, 250)
+23:10:25.949  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[la]
+23:10:30.989  INFO  manager.ListenerWD - Huston we have a problem!
+23:10:30.989  INFO  manager.ListenerWD - Object target  --->ChromeDriver: chrome on WINDOWS (e80057c8fbfaec04d32b7579660381bd)
+23:10:30.989  INFO  manager.ListenerWD - ********************
+23:10:30.989  INFO  manager.ListenerWD - findElement
+23:10:30.989  INFO  manager.ListenerWD - ********************
+23:10:30.989  INFO  manager.ListenerWD - InvocationTargetException1java.lang.reflect.InvocationTargetException
+23:10:30.989  INFO  manager.ListenerWD - ********************
+23:10:30.989  INFO  manager.ListenerWD - InvocationTargetException2null
+23:10:30.989  INFO  manager.ListenerWD - ********************
+23:10:30.989  INFO  manager.ListenerWD - InvocationTargetException3java.lang.reflect.InvocationTargetException
+23:10:30.989  INFO  manager.ListenerWD - ********************
