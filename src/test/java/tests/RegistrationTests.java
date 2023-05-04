@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class RegistrationTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
 
         if (app.getHelperUser().isLogged()) {
@@ -38,7 +38,7 @@ public class RegistrationTests extends TestBase{
 
     }
 
-    @Test()
+    @Test(groups = {"smoke"})
     public void registrationWrongEmail()
     {
         logger.info("Start test with name 'registrationWrongEmail'");

@@ -1,0 +1,11 @@
+20:29:22.515  INFO  manager.ApplicationManager - All tests run in Chrome browser
+20:29:23.786  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/login
+20:29:23.802  INFO  manager.ListenerWD - Before Find ElementS--->By.xpath: //button[text()='Sign Out']
+20:29:28.857  INFO  manager.ListenerWD - After Find ElementS--->By.xpath: //button[text()='Sign Out']
+20:29:28.857  INFO  manager.ListenerWD - list of elements is --->0
+20:29:28.857  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //a[@class='active']
+20:29:28.880  INFO  manager.ListenerWD - After Find Element--->By.xpath: //a[@class='active']
+20:29:28.901  INFO  manager.ListenerWD - Location of element(1425, 33)
+20:29:28.940  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@name='email']
+20:29:28.972  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@name='email']
+20:29:28.981  INFO  manager.ListenerWD - Location of element(568, 250)

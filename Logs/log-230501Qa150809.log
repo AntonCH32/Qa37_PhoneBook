@@ -1,0 +1,122 @@
+15:08:11.679  INFO  manager.ApplicationManager - All tests run in Chrome browser
+15:08:13.782  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/login
+15:08:13.799  INFO  manager.ListenerWD - Before Find ElementS--->By.xpath: //button[text()='Sign Out']
+15:08:18.855  INFO  manager.ListenerWD - After Find ElementS--->By.xpath: //button[text()='Sign Out']
+15:08:18.855  INFO  manager.ListenerWD - list of elements is --->0
+15:08:18.865  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //a[@class='active']
+15:08:18.882  INFO  manager.ListenerWD - After Find Element--->By.xpath: //a[@class='active']
+15:08:18.897  INFO  manager.ListenerWD - Location of element(1425, 33)
+15:08:18.958  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@name='email']
+15:08:18.984  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@name='email']
+15:08:18.997  INFO  manager.ListenerWD - Location of element(568, 250)
+15:08:19.155  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@name='password']
+15:08:19.175  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@name='password']
+15:08:19.185  INFO  manager.ListenerWD - Location of element(568, 320)
+15:08:19.327  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //button[text()='Login']
+15:08:19.348  INFO  manager.ListenerWD - After Find Element--->By.xpath: //button[text()='Login']
+15:08:19.359  INFO  manager.ListenerWD - Location of element(568, 390)
+15:08:19.411  INFO  tests.TestBase - Name off method --->addContactSuccessAllFieldsCSV
+15:08:19.433  INFO  tests.TestBase - Tests run with data: --->Contact(name=Harry, lastname=Potter, phone=123456781234, email=harry@mail.com, address=NY, description=move)
+15:08:19.433  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: a[href='/add']
+15:08:20.358  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: a[href='/add']
+15:08:20.368  INFO  manager.ListenerWD - Location of element(1191, 34)
+15:08:20.412  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Name']
+15:08:20.435  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Name']
+15:08:20.445  INFO  manager.ListenerWD - Location of element(242, 165)
+15:08:20.584  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Last Name']
+15:08:20.615  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Last Name']
+15:08:20.625  INFO  manager.ListenerWD - Location of element(242, 238)
+15:08:20.772  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Phone']
+15:08:20.790  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Phone']
+15:08:20.800  INFO  manager.ListenerWD - Location of element(242, 312)
+15:08:20.941  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: input[placeholder='email']
+15:08:20.959  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: input[placeholder='email']
+15:08:20.970  INFO  manager.ListenerWD - Location of element(242, 385)
+15:08:21.130  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Address']
+15:08:21.148  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Address']
+15:08:21.159  INFO  manager.ListenerWD - Location of element(242, 459)
+15:08:21.286  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='description']
+15:08:21.307  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='description']
+15:08:21.316  INFO  manager.ListenerWD - Location of element(242, 533)
+15:08:21.448  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:21.465  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:21.476  INFO  manager.ListenerWD - Location of element(245, 606)
+15:08:21.622  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:21.640  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:21.648  INFO  manager.ListenerWD - Location of element(245, 606)
+15:08:21.675  INFO  manager.ListenerWD - Before Find ElementS--->By.cssSelector: h2
+15:08:22.223  INFO  manager.ListenerWD - After Find ElementS--->By.cssSelector: h2
+15:08:22.223  INFO  manager.ListenerWD - list of elements is --->5
+15:08:22.282  INFO  manager.ListenerWD - Before Find ElementS--->By.cssSelector: h3
+15:08:22.323  INFO  manager.ListenerWD - After Find ElementS--->By.cssSelector: h3
+15:08:22.323  INFO  manager.ListenerWD - list of elements is --->5
+15:08:22.387  INFO  tests.TestBase - Name off method --->addContactSuccessAllFieldsCSV
+15:08:22.387  INFO  tests.TestBase - Tests run with data: --->Contact(name=Molly, lastname=Potter, phone=123456781234, email=molly@mail.com, address=NY, description=move)
+15:08:22.387  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: a[href='/add']
+15:08:22.401  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: a[href='/add']
+15:08:22.409  INFO  manager.ListenerWD - Location of element(1204, 34)
+15:08:22.437  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Name']
+15:08:22.453  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Name']
+15:08:22.463  INFO  manager.ListenerWD - Location of element(242, 165)
+15:08:22.598  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Last Name']
+15:08:22.611  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Last Name']
+15:08:22.621  INFO  manager.ListenerWD - Location of element(242, 238)
+15:08:22.764  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Phone']
+15:08:22.788  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Phone']
+15:08:22.801  INFO  manager.ListenerWD - Location of element(242, 312)
+15:08:22.939  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: input[placeholder='email']
+15:08:22.952  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: input[placeholder='email']
+15:08:22.964  INFO  manager.ListenerWD - Location of element(242, 385)
+15:08:23.116  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Address']
+15:08:23.122  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Address']
+15:08:23.140  INFO  manager.ListenerWD - Location of element(242, 459)
+15:08:23.272  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='description']
+15:08:23.283  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='description']
+15:08:23.297  INFO  manager.ListenerWD - Location of element(242, 533)
+15:08:23.427  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:23.440  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:23.450  INFO  manager.ListenerWD - Location of element(245, 606)
+15:08:23.532  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:23.536  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:23.552  INFO  manager.ListenerWD - Location of element(245, 606)
+15:08:23.580  INFO  manager.ListenerWD - Before Find ElementS--->By.cssSelector: h2
+15:08:23.999  INFO  manager.ListenerWD - After Find ElementS--->By.cssSelector: h2
+15:08:24.000  INFO  manager.ListenerWD - list of elements is --->6
+15:08:24.060  INFO  manager.ListenerWD - Before Find ElementS--->By.cssSelector: h3
+15:08:24.110  INFO  manager.ListenerWD - After Find ElementS--->By.cssSelector: h3
+15:08:24.110  INFO  manager.ListenerWD - list of elements is --->6
+15:08:24.160  INFO  tests.TestBase - Name off method --->addContactSuccessAllFieldsCSV
+15:08:24.160  INFO  tests.TestBase - Tests run with data: --->Contact(name=Sara, lastname=Potter, phone=123456781234, email=sara@mail.com, address=NY, description=move)
+15:08:24.160  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: a[href='/add']
+15:08:24.181  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: a[href='/add']
+15:08:24.188  INFO  manager.ListenerWD - Location of element(1204, 34)
+15:08:24.222  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Name']
+15:08:24.238  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Name']
+15:08:24.247  INFO  manager.ListenerWD - Location of element(242, 165)
+15:08:24.409  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Last Name']
+15:08:24.421  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Last Name']
+15:08:24.430  INFO  manager.ListenerWD - Location of element(242, 238)
+15:08:24.567  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Phone']
+15:08:24.580  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Phone']
+15:08:24.591  INFO  manager.ListenerWD - Location of element(242, 312)
+15:08:24.768  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: input[placeholder='email']
+15:08:24.793  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: input[placeholder='email']
+15:08:24.805  INFO  manager.ListenerWD - Location of element(242, 385)
+15:08:24.955  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='Address']
+15:08:24.986  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='Address']
+15:08:24.997  INFO  manager.ListenerWD - Location of element(242, 459)
+15:08:25.156  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[@placeholder='description']
+15:08:25.168  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[@placeholder='description']
+15:08:25.179  INFO  manager.ListenerWD - Location of element(242, 533)
+15:08:25.308  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:25.321  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:25.330  INFO  manager.ListenerWD - Location of element(245, 606)
+15:08:25.415  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:25.429  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: .add_form__2rsm2>button
+15:08:25.437  INFO  manager.ListenerWD - Location of element(245, 606)
+15:08:25.464  INFO  manager.ListenerWD - Before Find ElementS--->By.cssSelector: h2
+15:08:25.876  INFO  manager.ListenerWD - After Find ElementS--->By.cssSelector: h2
+15:08:25.876  INFO  manager.ListenerWD - list of elements is --->7
+15:08:25.953  INFO  manager.ListenerWD - Before Find ElementS--->By.cssSelector: h3
+15:08:25.990  INFO  manager.ListenerWD - After Find ElementS--->By.cssSelector: h3
+15:08:25.990  INFO  manager.ListenerWD - list of elements is --->7

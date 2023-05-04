@@ -1,0 +1,5 @@
+14:44:55.106  INFO  tests.TestBase - Test data ---> email: 'noagmail.com' & password : 'Nnoa12345$'
+14:44:55.115  INFO  tests.TestBase - Start test with name 'registrationWrongEmail'
+14:44:55.115  INFO  tests.TestBase - Test data ---> Email: 'cherkasskyantonygmail.com' & Password : 'Ant1990$'
+14:44:55.118  INFO  tests.TestBase - Tests run with data: --->Contact(name=TonyReq1916, lastname=Stark, phone=343434341916, email=stark1916@gmail.com, address=NY, description=null)
+14:44:55.120  INFO  tests.TestBase - Start test with name 'removeFirstContact'
