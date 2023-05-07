@@ -1,0 +1,136 @@
+23:04:42.430  INFO  manager.ApplicationManager - All tests run in Chrome browser
+23:04:44.760  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/login
+23:04:44.807  INFO  tests.TestBase - Name off method --->loginWrongEmail
+23:04:44.811  INFO  manager.ListenerWD - Before Find ElementS--->By.xpath: //button[text()='Sign Out']
+23:04:49.845  INFO  manager.ListenerWD - After Find ElementS--->By.xpath: //button[text()='Sign Out']
+23:04:49.848  INFO  manager.ListenerWD - list of elements is --->0
+23:04:49.850  INFO  tests.TestBase - Test data ---> email: 'noagmail.com' & password : 'Nnoa12345$'
+23:04:49.860  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: a[href='/login']
+23:04:49.892  INFO  manager.ListenerWD - After Find Element--->By.cssSelector: a[href='/login']
+23:04:49.909  INFO  manager.ListenerWD - Location of element(1425, 33)
+23:04:49.960  INFO  manager.ListenerWD - Before Find Element--->By.name: email
+23:04:49.987  INFO  manager.ListenerWD - After Find Element--->By.name: email
+23:04:49.999  INFO  manager.ListenerWD - Location of element(568, 250)
+23:04:50.212  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //input[last()]
+23:04:50.241  INFO  manager.ListenerWD - After Find Element--->By.xpath: //input[last()]
+23:04:50.252  INFO  manager.ListenerWD - Location of element(568, 320)
+23:04:50.432  INFO  manager.ListenerWD - Before Find Element--->By.xpath: //button[text()='Login']
+23:04:50.458  INFO  manager.ListenerWD - After Find Element--->By.xpath: //button[text()='Login']
+23:04:50.468  INFO  manager.ListenerWD - Location of element(568, 390)
+23:04:50.535  INFO  manager.ListenerWD - Huston we have a problem!
+23:04:50.536  INFO  manager.ListenerWD - Object target  --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@78d71df1
+23:04:50.536  INFO  manager.ListenerWD - ********************
+23:04:50.536  INFO  manager.ListenerWD - Method name--->alert
+23:04:50.536  INFO  manager.ListenerWD - ********************
+23:04:50.536  INFO  manager.ListenerWD - ********************
+23:04:50.537  INFO  manager.ListenerWD - ********************
+23:04:50.539  INFO  manager.ListenerWD - InvocationTargetException3 & getTargetException--->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.139)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30298d9c300acc6ca39a72796fddfac3, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Toxa32\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50020/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30298d9c300acc6ca39a72796fddfac3
+23:04:50.540  INFO  manager.ListenerWD - ********************
+23:04:50.542  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1656.png
+23:04:51.075  INFO  manager.ListenerWD - Huston we have a problem!
+23:04:51.075  INFO  manager.ListenerWD - Object target  --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@5f5827d0
+23:04:51.075  INFO  manager.ListenerWD - ********************
+23:04:51.075  INFO  manager.ListenerWD - Method name--->alert
+23:04:51.075  INFO  manager.ListenerWD - ********************
+23:04:51.075  INFO  manager.ListenerWD - ********************
+23:04:51.075  INFO  manager.ListenerWD - ********************
+23:04:51.077  INFO  manager.ListenerWD - InvocationTargetException3 & getTargetException--->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.139)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30298d9c300acc6ca39a72796fddfac3, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Toxa32\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50020/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30298d9c300acc6ca39a72796fddfac3
+23:04:51.078  INFO  manager.ListenerWD - ********************
+23:04:51.078  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1434.png
+23:04:51.604  INFO  manager.ListenerWD - Huston we have a problem!
+23:04:51.605  INFO  manager.ListenerWD - Object target  --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@a146b11
+23:04:51.605  INFO  manager.ListenerWD - ********************
+23:04:51.605  INFO  manager.ListenerWD - Method name--->alert
+23:04:51.606  INFO  manager.ListenerWD - ********************
+23:04:51.606  INFO  manager.ListenerWD - ********************
+23:04:51.607  INFO  manager.ListenerWD - ********************
+23:04:51.607  INFO  manager.ListenerWD - InvocationTargetException3 & getTargetException--->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.139)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30298d9c300acc6ca39a72796fddfac3, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Toxa32\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50020/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30298d9c300acc6ca39a72796fddfac3
+23:04:51.607  INFO  manager.ListenerWD - ********************
+23:04:51.608  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1108.png
+23:04:52.163  INFO  tests.TestBase - Assert check is alert present with error text 'Wrong email or password'
+23:04:52.173  INFO  tests.TestBase - Name off method --->registrationWrongEmail
+23:04:52.175  INFO  manager.ListenerWD - Before Find ElementS--->By.xpath: //button[text()='Sign Out']
+23:04:55.063  INFO  manager.ListenerWD - After Find ElementS--->By.xpath: //button[text()='Sign Out']
+23:04:55.065  INFO  manager.ListenerWD - list of elements is --->0
+23:04:55.066  INFO  tests.TestBase - Start test with name 'registrationWrongEmail'
+23:04:55.067  INFO  tests.TestBase - Test data ---> Email: 'cherkasskyantonygmail.com' & Password : 'Ant1990$'
+23:04:55.067  INFO  manager.ListenerWD - Before Find Element--->By.cssSelector: a[href='/login']
+23:04:55.078  INFO  manager.ListenerWD - Huston we have a problem!
+23:04:55.079  INFO  manager.ListenerWD - Object target  --->ChromeDriver: chrome on WINDOWS (30298d9c300acc6ca39a72796fddfac3)
+23:04:55.079  INFO  manager.ListenerWD - ********************
+23:04:55.079  INFO  manager.ListenerWD - Method name--->findElement
+23:04:55.079  INFO  manager.ListenerWD - ********************
+23:04:55.079  INFO  manager.ListenerWD - ********************
+23:04:55.079  INFO  manager.ListenerWD - ********************
+23:04:55.081  INFO  manager.ListenerWD - InvocationTargetException3 & getTargetException--->org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.139)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30298d9c300acc6ca39a72796fddfac3, findElement {using=css selector, value=a[href='/login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Toxa32\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50020/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30298d9c300acc6ca39a72796fddfac3
+23:04:55.082  INFO  manager.ListenerWD - ********************
+23:04:55.082  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1506.png
+23:04:55.100  INFO  manager.ListenerWD - Before Find ElementS--->By.xpath: //button[text()='Sign Out']
+23:04:55.112  INFO  manager.ListenerWD - Huston we have a problem!
+23:04:55.113  INFO  manager.ListenerWD - Object target  --->ChromeDriver: chrome on WINDOWS (30298d9c300acc6ca39a72796fddfac3)
+23:04:55.113  INFO  manager.ListenerWD - ********************
+23:04:55.114  INFO  manager.ListenerWD - Method name--->findElements
+23:04:55.114  INFO  manager.ListenerWD - ********************
+23:04:55.114  INFO  manager.ListenerWD - ********************
+23:04:55.114  INFO  manager.ListenerWD - ********************
+23:04:55.116  INFO  manager.ListenerWD - InvocationTargetException3 & getTargetException--->org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.139)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30298d9c300acc6ca39a72796fddfac3, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Toxa32\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50020/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30298d9c300acc6ca39a72796fddfac3
+23:04:55.117  INFO  manager.ListenerWD - ********************
+23:04:55.118  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1574.png
+23:04:55.141  INFO  tests.TestBase - Name off method --->addContactSuccessRequiredFields
+23:04:55.149  INFO  tests.TestBase - Name off method --->removeFirstContact
+23:04:55.153  INFO  manager.ListenerWD - Before Find ElementS--->By.xpath: //button[text()='Sign Out']
+23:04:55.161  INFO  manager.ListenerWD - Huston we have a problem!
+23:04:55.161  INFO  manager.ListenerWD - Object target  --->ChromeDriver: chrome on WINDOWS (30298d9c300acc6ca39a72796fddfac3)
+23:04:55.161  INFO  manager.ListenerWD - ********************
+23:04:55.161  INFO  manager.ListenerWD - Method name--->findElements
+23:04:55.161  INFO  manager.ListenerWD - ********************
+23:04:55.162  INFO  manager.ListenerWD - ********************
+23:04:55.162  INFO  manager.ListenerWD - ********************
+23:04:55.162  INFO  manager.ListenerWD - InvocationTargetException3 & getTargetException--->org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.139)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30298d9c300acc6ca39a72796fddfac3, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Toxa32\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50020/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30298d9c300acc6ca39a72796fddfac3
+23:04:55.162  INFO  manager.ListenerWD - ********************
+23:04:55.162  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1527.png

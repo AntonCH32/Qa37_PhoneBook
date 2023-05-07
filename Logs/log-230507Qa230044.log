@@ -1,0 +1,4 @@
+23:00:48.035  INFO  tests.TestBase - Name off method --->loginWrongEmail
+23:00:48.057  INFO  tests.TestBase - Name off method --->registrationWrongEmail
+23:00:48.065  INFO  tests.TestBase - Name off method --->addContactSuccessRequiredFields
+23:00:48.072  INFO  tests.TestBase - Name off method --->removeFirstContact

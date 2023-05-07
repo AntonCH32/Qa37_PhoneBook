@@ -32,6 +32,10 @@ task scoup(type: Test)
             {
                 suites 'src/test/resources/scoup.xml'
             }
+    if(project.hasProperty('browser'))
+    {
+        systemProperty 'browser', "${browser}"
+    }
 }
 
 task team (type: Test)
