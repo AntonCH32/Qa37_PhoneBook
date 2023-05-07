@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QA_37.Qa37_PhoneBook.main.iml" filepath="$PROJECT_DIR$/.idea/modules/QA_37.Qa37_PhoneBook.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QA_37.Qa37_PhoneBook.test.iml" filepath="$PROJECT_DIR$/.idea/modules/QA_37.Qa37_PhoneBook.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Qa37_PhoneBook.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Qa37_PhoneBook.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Qa37_PhoneBook.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Qa37_PhoneBook.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.Qa37_PhoneBook.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.Qa37_PhoneBook.main.iml" />
